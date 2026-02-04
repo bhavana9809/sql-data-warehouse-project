@@ -1,4 +1,4 @@
---CREATE TABLE FOR crm_cust_info IN bronze SCHEMA , IF TABLE ALREADY EXISTS DROP IT 
+--CREATE TABLE FOR crm_cust_info IN bronze SCHEMA , IF TABLE ALREADY EXISTS DROP IT
 
 IF OBJECT_ID ('bronze.crm_cust_info' , 'U' ) IS NOT NULL 
 DROP TABLE bronze.crm_cust_info;
